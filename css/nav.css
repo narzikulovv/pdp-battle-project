@@ -1,0 +1,109 @@
+nav {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 999999; }
+  nav .dropdown {
+    border: 1px solid #9DA7BB;
+    box-sizing: border-box;
+    border-radius: 4px; }
+    nav .dropdown .blu {
+      color: #536DFD;
+      font-size: 12px;
+      line-height: 14px;
+      text-transform: uppercase; }
+      @media (max-width: 576px) {
+        nav .dropdown .blu {
+          color: #FFF;
+          font-size: 15px;
+          line-height: 17px; } }
+    nav .dropdown .seri {
+      font-size: 12px;
+      line-height: 14px;
+      color: #9DA7BB; }
+      @media (max-width: 576px) {
+        nav .dropdown .seri {
+          color: #FFF;
+          font-size: 15px;
+          line-height: 17px; } }
+  nav .kir {
+    background: #536DFD;
+    border-radius: 4px;
+    padding: 7px 30px;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 14px; }
+
+footer .nav {
+  display: block; }
+  @media (max-width: 576px) {
+    footer .nav {
+      text-align: center; } }
+  footer .nav .navbar-brend {
+    color: #000;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "sf-medium", serif; }
+  footer .nav .nav-item .fon {
+    padding: 10px;
+    background: #F1F2F6;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between; }
+  footer .nav .nav-item .nav-link {
+    font-size: 14px;
+    line-height: 17px;
+    color: #9DA7BB;
+    font-family: "sf-regular", serif; }
+    footer .nav .nav-item .nav-link.kak {
+      margin-top: 33px; }
+  footer .nav .btn {
+    padding: 11px 44px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFF;
+    background: #9DA7BB;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-left: 16px; }
+    @media (max-width: 576px) {
+      footer .nav .btn {
+        padding: 5px 15px;
+        font-size: 12px;
+        line-height: 15px; } }
+footer .social {
+  display: flex; }
+  footer .social .bg-dark {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    margin-top: 21px; }
+  footer .social .bg-secondary {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    margin-top: 21px; }
+footer .foter {
+  font-size: 10px;
+  line-height: 12px;
+  color: #9DA7BB;
+  margin-top: 40px; }
+  footer .foter span {
+    font-size: 10px;
+    line-height: 12px;
+    color: #9DA7BB;
+    margin-left: 14px;
+    margin-right: 14px; }
+
+/*# sourceMappingURL=nav.css.map */

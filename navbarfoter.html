@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/dropdovn.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-2 col-lg-4 col-md-5 col-sm-6 d-flex align-items-center justify-content-between">
+                    <a href="#" class="navbar-brand">
+                        <img src="img/Group.png" alt="">
+                    </a>
+                    <div class="dropdown open d-none d-sm-block">
+                        <button class="btn blu dropdown-toggle sf-medium" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Barcha kurslar
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <a class="dropdown-item" href="#">Web dasturlash</a>
+                            <a class="dropdown-item" href="#">Mobil dasturlash</a>
+                            <a class="dropdown-item" href="#">Dectop dasturlash</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-lg-3 col-md-5 col-sm-6 d-flex align-items-center justify-content-sm-between justify-content-end">
+                    <div class="dropdown open d-none d-sm-block">
+                        <button class="btn seri dropdown-toggle sf-medium" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            UZBEK
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <a class="dropdown-item" href="#">RUS</a>
+                            <a class="dropdown-item" href="#">ENGLISH</a>
+                            <a class="dropdown-item" href="#">ISPANIOL</a>
+                        </div>
+                    </div>
+                    <button type="button" class="btn kir sf-medium d-none d-sm-block">Kirish</button>
+                </div>
+                <div id="mySidepanel" class="sidepanel">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <div class="dropdown  dropright">
+                        <button class="btn blu dropdown-toggle sf-medium" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Barcha kurslar
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <a class="dropdown-item" href="#">Web dasturlash</a>
+                            <a class="dropdown-item" href="#">Mobil dasturlash</a>
+                            <a class="dropdown-item" href="#">Dectop dasturlash</a>
+                        </div>
+                    </div>
+                    <div class="dropdown dropright ">
+                        <button class="btn seri dropdown-toggle sf-medium" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            UZBEK
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <a class="dropdown-item" href="#">RUS</a>
+                            <a class="dropdown-item" href="#">ENGLISH</a>
+                            <a class="dropdown-item" href="#">ISPANIOL</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="openbtn d-block d-sm-none" onclick="openNav()">☰</button>
+            </div>
+        </div>
+    </nav>
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center justify-content-md-between">
+                <div class="col-10 col-sm-6 col-xl-3 col-md-3">
+                    <ul class="nav">
+                        <a href="#" class="navbar-brend nav-link">Asosiy</a>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Loyiha haqida</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Kurslar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Mentorlarga</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Ommaviy oferta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Maxfiylik siyosati</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-10 col-sm-6 col-xl-3 col-md-3">
+                    <ul class="nav">
+                        <a href="#" class="navbar-brend nav-link">Qo’shimcha</a>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Bizning jamoa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Biz bilan hamkorlik</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Bu qanday ishlaydi ?</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-10 col-sm-6 col-xl-3 col-md-3">
+                    <ul class="nav">
+                        <a href="#" class="navbar-brend nav-link">Qo’llab quvvatlash</a>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Eng ko’p beriladigan savollar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-10 col-sm-6 col-xl-3 col-md-3">
+                    <ul class="nav">
+                        <a href="#" class="navbar-brend nav-link">To’lov turlari</a>
+                        <li class="nav-item pl-3">
+                            <div class="fon">
+                                <a href="#"><img src="img/payme.png" alt=""></a>
+                                <a href="#"><img src="img/logo.png" alt=""></a>
+                                <a href="#"><img src="img/upay_logo_new.png" alt=""></a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link kak">100011, Toshkent sh. Shayxontohur tum.,
+                                Zarqaynar ko'ch., 3B-uy</a>
+                        </li>
+                        <a href="#" class="btn">Biz bilan aloqa</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 social">
+                    <a href="#" class="bg-dark"><img src="img/001-telegram.png" alt=""></a>
+                    <a href="#" class="bg-secondary"><img src="img/Vector (12).png" alt=""></a>
+                    <a href="#" class="bg-secondary"><img src="img/003-instagram.png" alt=""></a>
+                    <a href="#" class="bg-secondary"><img src="img/Vector (13).png" alt=""></a>
+                </div>
+                <p class="foter">
+                    <span>© 2019 storm.uz</span>
+                    |
+                    <span>Personal Development Process LLC</span>
+                    |
+                    <span>Foydalanish shartlari</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="css/Bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="css/Bootstrap/js/popper.min.js"></script>
+    <script src="css/Bootstrap/js/bootstrap.js"></script>
+    <script>
+    function openNav() {
+        document.getElementById("mySidepanel").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
+    }
+    </script>
+</body>
+
+</html>

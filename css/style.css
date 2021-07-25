@@ -1,0 +1,708 @@
+@font-face {
+  font-family: "sf-bold";
+  src: url("../font/FontsFree-Net-SFProDisplay-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "sf-semi-bold";
+  src: url("../font/FontsFree-Net-SFProDisplay-Semibold.ttf") format("truetype"); }
+@font-face {
+  font-family: "sf-regular";
+  src: url("../font/FontsFree-Net-SFProDisplay-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "sf-medium";
+  src: url("../font/FontsFree-Net-SFProDisplay-Medium.ttf") format("truetype"); }
+@font-face {
+  font-family: "sf-havay";
+  src: url("../font/FontsFree-Net-SFProDisplay-Heavy.ttf") format("truetype"); }
+@font-face {
+  font-family: "sf-italik";
+  src: url("../font/FontsFree-Net-SFProDisplay-RegularItalic.ttf") format("truetype"); }
+.sf-bold {
+  font-family: "sf-bold", serif; }
+
+.sf-italik {
+  font-family: "sf-italik", serif; }
+
+.sf-semibold {
+  font-family: "sf-semibold", serif; }
+
+.sf-regular {
+  font-family: "sf-regular", serif; }
+
+.sf-medium {
+  font-family: "sf-medium", serif; }
+
+.sf-havay {
+  font-family: "sf-havay", serif; }
+
+.havo {
+  background: #11BDF3; }
+
+.sariq {
+  background: #FFB800; }
+
+.yashil {
+  background: #10C8A0; }
+
+.qizil {
+  background: #EB3B3B; }
+
+.sapsariq {
+  background: yellow; }
+
+body nav {
+  background-color: #fff; }
+  body nav .dropdown {
+    border: 1px solid #9DA7BB;
+    box-sizing: border-box;
+    border-radius: 4px; }
+    body nav .dropdown .blu {
+      color: #536DFD;
+      font-size: 12px;
+      line-height: 14px;
+      text-transform: uppercase; }
+      @media (max-width: 576px) {
+        body nav .dropdown .blu {
+          color: #FFF;
+          font-size: 15px;
+          line-height: 17px; } }
+    body nav .dropdown .seri {
+      font-size: 12px;
+      line-height: 14px;
+      color: #9DA7BB; }
+      @media (max-width: 576px) {
+        body nav .dropdown .seri {
+          color: #FFF;
+          font-size: 15px;
+          line-height: 17px; } }
+  body nav .kir {
+    background: #536DFD;
+    border-radius: 4px;
+    padding: 7px 30px;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 14px; }
+body header {
+  background-image: url("../img/back.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-left: 8%; }
+  @media (max-width: 576px) {
+    body header {
+      height: 70vh;
+      padding-bottom: 0; } }
+  body header h1 {
+    margin-top: 107px;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFF; }
+    @media (max-width: 1200px) {
+      body header h1 {
+        font-size: 43px;
+        line-height: 56px;
+        margin-top: 76px; } }
+    @media (max-width: 992px) {
+      body header h1 {
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 51px; } }
+    @media (max-width: 576px) {
+      body header h1 {
+        margin-top: 11px;
+        line-height: 19px; } }
+    body header h1 span {
+      color: #FFD401; }
+  body header h2 {
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFF; }
+    @media (max-width: 1200px) {
+      body header h2 {
+        font-size: 43px;
+        line-height: 56px; } }
+    @media (max-width: 992px) {
+      body header h2 {
+        font-size: 24px;
+        line-height: 29px; } }
+    @media (max-width: 576px) {
+      body header h2 {
+        margin-top: 11px; } }
+  body header p {
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFF;
+    margin-top: 50px; }
+    @media (max-width: 992px) {
+      body header p {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 20px; } }
+    @media (max-width: 576px) {
+      body header p {
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 15px; } }
+  body header form .qidir {
+    height: 60px;
+    padding: 10px;
+    border: 2px solid #FFF;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 28px;
+    margin-bottom: 158px; }
+    @media (max-width: 992px) {
+      body header form .qidir {
+        height: 40px;
+        padding: 0;
+        margin-top: 15px; } }
+    @media (max-width: 992px) {
+      body header form .qidir {
+        margin-top: 5px; } }
+    body header form .qidir input {
+      height: 100%; }
+    body header form .qidir .btn {
+      height: 100%; }
+  body header .cal {
+    overflow: hidden; }
+    body header .cal .yon {
+      position: relative; }
+      body header .cal .yon .card {
+        width: 400px;
+        position: absolute;
+        top: 83px;
+        left: 27px;
+        transition: all 0.5s linear; }
+        @media (max-width: 992px) {
+          body header .cal .yon .card {
+            top: 20px; } }
+        @media (800px) {
+          body header .cal .yon .card {
+            display: none; } }
+        body header .cal .yon .card .card-body {
+          position: relative; }
+          body header .cal .yon .card .card-body h6 {
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFF;
+            padding: 3px 10px;
+            border-radius: 2px; }
+          body header .cal .yon .card .card-body h5 {
+            font-size: 20px;
+            line-height: 24px;
+            color: #2E2E2E; }
+            body header .cal .yon .card .card-body h5 span {
+              font-size: 12px;
+              line-height: 24px;
+              color: #969696; }
+          body header .cal .yon .card .card-body h4 {
+            font-size: 20px;
+            line-height: 24px;
+            color: #2E2E2E; }
+            @media (max-width: 576px) {
+              body header .cal .yon .card .card-body h4 {
+                font-size: 16px;
+                line-height: 20px; } }
+            body header .cal .yon .card .card-body h4 span {
+              font-size: 12px;
+              line-height: 24px;
+              color: #969696; }
+          body header .cal .yon .card .card-body .yul h3 {
+            font-size: 14px;
+            line-height: 17px;
+            color: #2E2E2E;
+            margin-left: 6px; }
+          body header .cal .yon .card .card-body .yul span {
+            font-size: 12px;
+            line-height: 24px;
+            color: #969696; }
+          body header .cal .yon .card .card-body a {
+            padding: 7px 10px;
+            border-radius: 50%;
+            border: 1px solid #F1F1F1;
+            position: absolute;
+            right: 23px;
+            bottom: 23px; }
+            @media (max-width: 576px) {
+              body header .cal .yon .card .card-body a {
+                right: 22px;
+                bottom: 22px; } }
+            body header .cal .yon .card .card-body a span {
+              font-size: 30px;
+              color: #536DFD; }
+              @media (max-width: 576px) {
+                body header .cal .yon .card .card-body a span {
+                  font-size: 15px; } }
+        body header .cal .yon .card.card:hover .card-body h4 {
+          color: #536DFD; }
+        body header .cal .yon .card.card:hover .card-body a {
+          background-color: #536DFD; }
+          body header .cal .yon .card.card:hover .card-body a span {
+            color: #FFF; }
+      body header .cal .yon .cad2 {
+        position: absolute;
+        top: 303px;
+        left: 70px; }
+        @media (max-width: 992px) {
+          body header .cal .yon .cad2 {
+            top: 210px; } }
+        @media (800px) {
+          body header .cal .yon .cad2 {
+            display: none; } }
+      body header .cal .yon .cad3 {
+        position: absolute;
+        top: 83px;
+        left: 450px; }
+        @media (max-width: 992px) {
+          body header .cal .yon .cad3 {
+            top: 43px; } }
+        @media (800px) {
+          body header .cal .yon .cad3 {
+            display: none; } }
+      body header .cal .yon .cad4 {
+        position: absolute;
+        top: 303px;
+        left: 490px; }
+        @media (max-width: 992px) {
+          body header .cal .yon .cad4 {
+            top: 210px; } }
+        @media (800px) {
+          body header .cal .yon .cad4 {
+            display: none; } }
+body main {
+  background-color: #fff;
+  padding-bottom: 94px; }
+  body main .row h2 {
+    font-size: 30px;
+    line-height: 36px;
+    color: #2E2E2E;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 60px; }
+    @media (max-width: 992px) {
+      body main .row h2 {
+        margin-top: 50px; } }
+    @media (max-width: 772px) {
+      body main .row h2 {
+        margin-top: 25px; } }
+    @media (max-width: 556px) {
+      body main .row h2 {
+        margin-top: 0; } }
+  body main .row .card {
+    margin-bottom: 30px; }
+    body main .row .card .card-header {
+      position: relative; }
+      body main .row .card .card-header h1 {
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFF;
+        padding: 4px 27px;
+        border-radius: 2px;
+        position: absolute;
+        top: 24px;
+        left: 24px; }
+    body main .row .card .card-body {
+      padding-top: 0; }
+      body main .row .card .card-body h4 {
+        font-size: 20px;
+        line-height: 24px;
+        color: #2E2E2E;
+        margin-top: 11px; }
+      body main .row .card .card-body .yul {
+        width: 13px;
+        height: 12px;
+        margin-top: 13px; }
+        body main .row .card .card-body .yul h3 {
+          font-size: 14px;
+          line-height: 17px;
+          color: #2E2E2E; }
+        body main .row .card .card-body .yul span {
+          font-size: 12px;
+          line-height: 24px;
+          color: #969696; }
+      body main .row .card .card-body .hajm {
+        width: 70%; }
+        body main .row .card .card-body .hajm span {
+          color: #9DA7BB;
+          font-size: 14px;
+          line-height: 17px; }
+      body main .row .card .card-body a {
+        padding: 7px 10px;
+        border-radius: 50%;
+        border: 1px solid #F1F1F1;
+        position: absolute;
+        right: 32px;
+        bottom: 32px; }
+        @media (max-width: 576px) {
+          body main .row .card .card-body a {
+            right: 22px;
+            bottom: 22px; } }
+        body main .row .card .card-body a span {
+          font-size: 30px;
+          color: #536DFD; }
+          @media (max-width: 576px) {
+            body main .row .card .card-body a span {
+              font-size: 15px; } }
+    body main .row .card.card:hover .card-body h4 {
+      color: #536DFD; }
+    body main .row .card.card:hover .card-body a {
+      background-color: #536DFD; }
+      body main .row .card.card:hover .card-body a span {
+        color: #FFF; }
+body section {
+  background-color: #F1F2F6; }
+  body section .col-12 {
+    margin-top: 42px;
+    margin-bottom: 79px; }
+    body section .col-12 h1 {
+      font-size: 30px;
+      line-height: 36px;
+      color: #2E2E2E; }
+  body section .rek .card-body {
+    border-radius: 4px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px rgba(83, 109, 253, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px; }
+    body section .rek .card-body h4 {
+      font-size: 20px;
+      line-height: 24px;
+      color: #2E2E2E;
+      margin-left: 15px; }
+  @media (max-width: 992px) {
+    body section .scrol {
+      overflow: scroll; } }
+  body section .scrol .nav {
+    flex-wrap: nowrap; }
+    body section .scrol .nav .nav-item .nav-link {
+      color: #9DA7BB;
+      font-size: 20px;
+      line-height: 24px;
+      font-family: "", serif; }
+      body section .scrol .nav .nav-item .nav-link.active {
+        color: #2E2E2E;
+        border: 2px solid #2E2E2E;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-right-color: transparent; }
+  body section .bg-white {
+    padding-top: 60px;
+    padding-bottom: 99px; }
+    body section .bg-white .qisim .card {
+      position: relative;
+      margin-top: 30px; }
+      body section .bg-white .qisim .card .card-header {
+        position: relative; }
+        body section .bg-white .qisim .card .card-header img {
+          width: 100%; }
+        body section .bg-white .qisim .card .card-header h1 {
+          font-size: 12px;
+          line-height: 14px;
+          color: #FFF;
+          position: absolute;
+          top: 20px;
+          left: 20px; }
+      body section .bg-white .qisim .card .card-body {
+        display: block; }
+        body section .bg-white .qisim .card .card-body h4 {
+          font-size: 16px;
+          line-height: 19px;
+          color: #2E2E2E; }
+        body section .bg-white .qisim .card .card-body .yul h3 {
+          font-size: 12px;
+          line-height: 14px; }
+        body section .bg-white .qisim .card .card-body .hajm {
+          width: 70%; }
+          body section .bg-white .qisim .card .card-body .hajm span {
+            font-size: 12px;
+            line-height: 14px;
+            color: #969696; }
+          body section .bg-white .qisim .card .card-body .hajm h5 {
+            font-size: 14px;
+            line-height: 17px;
+            color: #2E2E2E; }
+            body section .bg-white .qisim .card .card-body .hajm h5 span {
+              font-size: 12px;
+              line-height: 14px;
+              color: #969696; }
+        body section .bg-white .qisim .card .card-body a {
+          padding: 4px 7px;
+          border-radius: 50%;
+          border: 1px solid #F1F1F1;
+          position: absolute;
+          right: 23px;
+          bottom: 23px; }
+          @media (max-width: 576px) {
+            body section .bg-white .qisim .card .card-body a {
+              right: 22px;
+              bottom: 22px; } }
+          body section .bg-white .qisim .card .card-body a span {
+            font-size: 20px;
+            color: #536DFD; }
+            @media (max-width: 576px) {
+              body section .bg-white .qisim .card .card-body a span {
+                font-size: 15px; } }
+      body section .bg-white .qisim .card.card:hover .card-body h4 {
+        color: #536DFD; }
+      body section .bg-white .qisim .card.card:hover .card-body a {
+        background-color: #536DFD; }
+        body section .bg-white .qisim .card.card:hover .card-body a span {
+          color: #FFF; }
+  body section .bac {
+    width: 100%;
+    background-image: url("../img/Rectangle 13.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 142px;
+    padding-bottom: 142px;
+    position: relative;
+    display: inline-flex;
+    align-items: center; }
+    @media (max-width: 772px) {
+      body section .bac {
+        padding-top: 90px;
+        padding-bottom: 77px;
+        height: 70vh; } }
+    @media (max-width: 576px) {
+      body section .bac {
+        padding-top: 90px;
+        padding-bottom: 47px;
+        height: 70vh; } }
+    body section .bac h1 {
+      font-size: 40px;
+      line-height: 48px;
+      color: #FFF; }
+      @media (max-width: 1200px) {
+        body section .bac h1 {
+          font-size: 30px;
+          line-height: 42px; } }
+      @media (max-width: 772px) {
+        body section .bac h1 {
+          font-size: 27px;
+          line-height: 37px; } }
+    body section .bac h2 {
+      font-size: 30px;
+      line-height: 36px;
+      color: #FFF;
+      font-family: "sf-italik", serif; }
+      @media (max-width: 1200px) {
+        body section .bac h2 {
+          font-size: 20px;
+          line-height: 26px; } }
+      @media (max-width: 772px) {
+        body section .bac h2 {
+          margin-left: 50px; } }
+    body section .bac .img1 {
+      position: absolute;
+      top: 80px;
+      left: 106px; }
+      @media (max-width: 1200px) {
+        body section .bac .img1 {
+          top: 20px;
+          left: 40px; } }
+      @media (max-width: 772px) {
+        body section .bac .img1 {
+          width: 60px; } }
+    body section .bac .img2 {
+      position: absolute;
+      right: 143px;
+      bottom: 78px; }
+      @media (max-width: 1200px) {
+        body section .bac .img2 {
+          right: 20px;
+          bottom: 40px; } }
+      @media (max-width: 772px) {
+        body section .bac .img2 {
+          width: 60px; } }
+  body section .karusel {
+    position: relative; }
+    body section .karusel .carousel-inner .carousel-item .or {
+      padding-top: 80px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px; }
+      body section .karusel .carousel-inner .carousel-item .or .carus {
+        width: 65%;
+        background-color: #fff;
+        text-align: center;
+        padding-bottom: 22px;
+        padding-left: 72px;
+        padding-right: 72px;
+        z-index: 22; }
+        @media (max-width: 772px) {
+          body section .karusel .carousel-inner .carousel-item .or .carus {
+            padding-left: 52px;
+            padding-right: 52px;
+            width: 85%; } }
+        body section .karusel .carousel-inner .carousel-item .or .carus img {
+          margin-top: -75px; }
+          @media (max-width: 772px) {
+            body section .karusel .carousel-inner .carousel-item .or .carus img {
+              width: 90px;
+              margin-top: -45px; } }
+        body section .karusel .carousel-inner .carousel-item .or .carus h5 {
+          font-size: 20px;
+          line-height: 24px;
+          color: #2E2E2E;
+          margin-top: 13px;
+          margin-bottom: 0;
+          font-family: "sf-regular", serif; }
+          @media (max-width: 772px) {
+            body section .karusel .carousel-inner .carousel-item .or .carus h5 {
+              font-size: 16px;
+              line-height: 20px; } }
+        body section .karusel .carousel-inner .carousel-item .or .carus h6 {
+          font-size: 18px;
+          line-height: 21px;
+          margin-top: 5px;
+          color: #536DFD;
+          font-family: "sf-regular", serif; }
+          @media (max-width: 772px) {
+            body section .karusel .carousel-inner .carousel-item .or .carus h6 {
+              font-size: 14px;
+              line-height: 17px; } }
+          @media (max-width: 576px) {
+            body section .karusel .carousel-inner .carousel-item .or .carus h6 {
+              font-size: 12px;
+              line-height: 14px; } }
+        body section .karusel .carousel-inner .carousel-item .or .carus p {
+          font-size: 18px;
+          line-height: 21px;
+          text-align: center;
+          color: #2E2E2E;
+          font-family: "sf-regular", serif;
+          margin-top: 26px;
+          margin-bottom: 22px; }
+          @media (max-width: 772px) {
+            body section .karusel .carousel-inner .carousel-item .or .carus p {
+              font-size: 14px;
+              line-height: 17px; } }
+          @media (max-width: 576px) {
+            body section .karusel .carousel-inner .carousel-item .or .carus p {
+              font-size: 12px;
+              line-height: 14px; } }
+    body section .karusel .carousel-inner .carousel-item .oq {
+      width: 50%;
+      height: 200px;
+      background-color: #fff;
+      position: absolute;
+      left: 270px;
+      bottom: 0;
+      z-index: 1;
+      box-shadow: 0 0 5px #F1F1F1; }
+    body section .karusel .carousel-inner .carousel-item .oqar {
+      width: 55%;
+      height: 200px;
+      background-color: #fff;
+      position: absolute;
+      left: 250px;
+      bottom: 15px;
+      z-index: 2;
+      box-shadow: 0 3px 5px #F1F1F1; }
+    body section .karusel .pref {
+      position: absolute;
+      left: 50px;
+      top: 200px; }
+      @media (max-width: 992px) {
+        body section .karusel .pref {
+          left: -50px;
+          width: 20px; } }
+      @media (max-width: 600px) {
+        body section .karusel .pref {
+          left: 0;
+          width: 15px; } }
+    body section .karusel .next {
+      position: absolute;
+      top: 200px;
+      right: 50px; }
+      @media (max-width: 992px) {
+        body section .karusel .next {
+          right: -50px;
+          width: 20px; } }
+      @media (max-width: 600px) {
+        body section .karusel .next {
+          right: 0;
+          width: 15px; } }
+    @media (1200px) {
+      body section .karusel .hamkor {
+        display: inline-flex;
+        justify-content: center; } }
+    body section .karusel .hamkor img {
+      display: block; }
+      @media (max-width: 1200px) {
+        body section .karusel .hamkor img {
+          margin: auto;
+          margin-top: 50px; } }
+body footer .nav {
+  display: block; }
+  @media (max-width: 576px) {
+    body footer .nav {
+      text-align: center; } }
+  body footer .nav .navbar-brend {
+    color: #000;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "sf-medium", serif; }
+  body footer .nav .nav-item .fon {
+    padding: 10px;
+    background: #F1F2F6;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between; }
+  body footer .nav .nav-item .nav-link {
+    font-size: 14px;
+    line-height: 17px;
+    color: #9DA7BB;
+    font-family: "sf-regular", serif; }
+    body footer .nav .nav-item .nav-link.kak {
+      margin-top: 33px; }
+  body footer .nav .btn {
+    padding: 11px 44px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFF;
+    background: #9DA7BB;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-left: 16px; }
+    @media (max-width: 576px) {
+      body footer .nav .btn {
+        padding: 5px 15px;
+        font-size: 12px;
+        line-height: 15px; } }
+body footer .social {
+  display: flex; }
+  body footer .social .bg-dark {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    margin-top: 21px; }
+  body footer .social .bg-secondary {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    margin-top: 21px; }
+body footer .foter {
+  font-size: 10px;
+  line-height: 12px;
+  color: #9DA7BB;
+  margin-top: 40px; }
+  body footer .foter span {
+    font-size: 10px;
+    line-height: 12px;
+    color: #9DA7BB;
+    margin-left: 14px;
+    margin-right: 14px; }
+
+/*# sourceMappingURL=style.css.map */
